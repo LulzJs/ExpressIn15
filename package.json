@@ -1,0 +1,30 @@
+{
+  "name": "ExpressIn15",
+  "version": "1.0.0",
+  "description": "A minimal Express application",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanekotic/ElectronIn15.git"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "kanekotic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanekotic/ElectronIn15/issues"
+  },
+  "homepage": "https://github.com/kanekotic/ElectronIn15#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.1.3"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "rethinkdb": "^2.3.1",
+    "socket.io": "^1.4.6"
+  }
+}
